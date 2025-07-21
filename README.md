@@ -3,7 +3,7 @@
 ## Worum geht es?
 
 Dieses Programm ist ein Lern- und Übungstool für die Grundlagen der Nachrichtentechnik und Elektrotechnik.  
-Es hilft dabei, die Zusammenhänge zwischen Frequenz, Wellenlänge, Periodendauer, dB, dBm, Leistung und Spannung zu verstehen und zu üben.
+Das Programm hilft dabei, Kopfrechnen zu trainieren und das Verständnis für die Zusammenhänge zwischen Frequenz, Wellenlänge, Periodendauer, dB, dBm, Leistung und Spannung zu überprüfen.
 
 Das Programm stellt zufällige oder gezielte Aufgaben, bei denen Werte umgerechnet und in verschiedenen Einheiten angegeben werden müssen.  
 Die Eingaben werden auf Richtigkeit und Einheit geprüft, inklusive Toleranzbereich.
@@ -21,9 +21,6 @@ Die Eingaben werden auf Richtigkeit und Einheit geprüft, inklusive Toleranzbere
 
 - **Toleranz:**  
   Die Eingaben werden mit einer Toleranz von ±20% akzeptiert.
-
-- **Credits:**  
-  Informationen zum Autor und Kontaktmöglichkeiten.
 
 ## Bedienung
 

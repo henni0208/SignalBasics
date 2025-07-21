@@ -8,6 +8,22 @@ Das Programm hilft dabei, Kopfrechnen zu trainieren und das Verständnis für di
 Das Programm stellt zufällige oder gezielte Aufgaben, bei denen Werte umgerechnet und in verschiedenen Einheiten angegeben werden müssen.  
 Die Eingaben werden auf Richtigkeit und Einheit geprüft, inklusive Toleranzbereich.
 
+##Verwendung & Ausführung
+Dieses Dokument stellt nur den Quellcode des Programms bereit.
+Um das Programm auszuführen, muss der Code in eine geeignete Entwicklungsumgebung wie z. B. Visual Studio eingefügt und als C# Konsolenanwendung gestartet werden:
+
+**Schritte:**
+
+- Visual Studio öffnen und ein neues Projekt erstellen.
+
+- Projekttyp: Konsolenanwendung (.NET / C#) auswählen.
+
+- Den bereitgestellten Quellcode in die automatisch erstellte Program.cs einfügen.
+
+- Projekt ausführen (F5 oder "Starten").
+
+
+
 ## Funktionen
 
 - **Frequenz, Wellenlänge, Zeit:**  

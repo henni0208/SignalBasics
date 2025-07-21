@@ -25,24 +25,21 @@ Die Eingaben werden auf Richtigkeit und Einheit geprüft, inklusive Toleranzbere
 ## Bedienung
 
 1. **Starten:**  
-   Das Programm wird über die Konsole gestartet.
+   Das Programm startet eine Konsole, in der alle stattfindet.
 
 2. **Menü:**  
    Wählen Sie eine Option aus dem Menü (z.B. Frequenz abfragen, dBm abfragen).
 
 3. **Aufgaben lösen:**  
-   Geben Sie die gefragten Werte in der richtigen Einheit und Größenordnung ein (z.B. `2.5 kHz`, `-3 dBm`, `1.2 µV` oder `1.2 uV`).
+   Geben Sie die gefragten Werte ein, Größsenordnung egal. (z.B. `2.5 kHz`, `-3 dBm`, `1.2 µV` oder `1.2 uV`)
 
-4. **Weiter:**  
-   Nach jeder Aufgabe können Sie entscheiden, ob Sie weitermachen möchten.
-
-5. **Beenden:**  
+4. **Beenden:**  
    Das Programm kann jederzeit über das Menü beendet werden.
 
 ## Hinweise zur Eingabe
 
 - Dezimalzahlen können mit Punkt oder Komma eingegeben werden.
-- Einheiten und Präfixe können direkt hinter die Zahl geschrieben werden (z.B. `5mW`, `10kHz`, `2uV`).
+- Einheiten und Präfixe können direkt hinter die Zahl geschrieben werden oder mit Leerzeichen. (z.B. `5mW`, `10kHz`, `2uV`)
 - Für Mikro kann sowohl `µ` als auch `u` verwendet werden.
 - Negative Werte sind möglich (z.B. `-10 dBm`).
 

@@ -500,7 +500,7 @@ class Program
                 Console.WriteLine("Gedämpft");
                 (string einheit, float zahl) dbm = GetOptimalUnit(db[randomNumber]);
                 (string einheit, float zahl) watt_daempf = GetOptimalUnit(leistungsDaempfung[randomNumber] / 1000f);
-                Console.WriteLine($"dBm: -{dbm.zahl} {dbm.einheit}dBm enspricht?");--
+                Console.WriteLine($"dBm: -{dbm.zahl} {dbm.einheit}dBm enspricht?");
                 while (!Check(watt_daempf.zahl, "W", watt_daempf.einheit)) ;
             }
             else

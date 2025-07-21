@@ -27,16 +27,12 @@ class Program
     }
     private static void Init()
     {
-        for (int i = 0; i < 37; i++)
+        for (int i = 0; i < 75; i++)
         {
-            db[i] = (float)(i * 0.1);
-        }
-        for (int i = 37; i < (37 + 38); i++)
-        {
-            db[i] = i - 36;
+            db[i] = i;
         }
         int e = 4;
-        for (int i = (37 + 38); i < (37 + 38 + 5); i++)
+        for (int i = 75; i < (75 + 5); i++)
         {
             db[i] = e * 10;
             e++;
@@ -364,7 +360,7 @@ class Program
                 return false;
             }
             // Mit 20% Toleranz vergleichen
-            float tolerance = ist * 0.2f;
+            float tolerance = Math.Abs(ist) * 0.2f;
             if (Math.Abs(ergebnis.value - ist) <= tolerance)
             {
                 Console.WriteLine($"Richtig! Ihre Eingabe: {ergebnis.value} {ergebnis.order}{ergebnis.unit}");

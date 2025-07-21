@@ -9,7 +9,7 @@ Das Programm stellt zufällige oder gezielte Aufgaben, bei denen Werte umgerechn
 Die Eingaben werden auf Richtigkeit und Einheit geprüft, inklusive Toleranzbereich.
 
 ## Verwendung & Ausführung
-Dieses Dokument stellt nur den Quellcode des Programms bereit.
+Dieses Projekt stellt nur den Quellcode des Programms bereit.
 Um das Programm auszuführen, muss der Code in eine geeignete Entwicklungsumgebung wie z. B. Visual Studio eingefügt und als C# Konsolenanwendung gestartet werden:
 
 **Schritte:**

@@ -10,6 +10,9 @@
 *.userosscache
 *.sln.docstates
 *.env
+# Ignore solution and project files
+*.sln
+*.csproj
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs

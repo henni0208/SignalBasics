@@ -67,4 +67,4 @@ E-Mail: hw035191@fh-muenster.de
 
 ---
 
-© 2025 Hendrik Woltering. Alle Rechte vorbehalten.
+© 2025 Hendrik. Alle Rechte vorbehalten.

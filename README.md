@@ -67,4 +67,4 @@ E-Mail: dev@hendrox.com
 
 ---
 
-© 2025 Hendrik Woltering. Alle Rechte vorbehalten.
+© 2025 Hendrik. Alle Rechte vorbehalten.

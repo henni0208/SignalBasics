@@ -55,8 +55,8 @@ class Program
     private static void Credits()
     {
         Console.Clear();
-        Console.WriteLine("This program was created by Hendrik Woltering");
-        Console.WriteLine("Copyright (c) 2025 Hendrik Woltering. All rights reserved.");
+        Console.WriteLine("This program was created by Hendrik");
+        Console.WriteLine("Copyright (c) 2025 Hendrik. All rights reserved.");
         Console.WriteLine("No liability is assumed for any errors or inaccuracies in this program.");
         Console.WriteLine("This program is provided 'as is' without any warranty, express or implied.");
         Console.WriteLine("For any questions or concerns, please contact me at hw035191@fh-muenster.de");

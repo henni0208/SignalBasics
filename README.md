@@ -9,8 +9,8 @@ Das Programm stellt zufällige oder gezielte Aufgaben, bei denen Werte umgerechn
 Die Eingaben werden auf Richtigkeit und Einheit geprüft, inklusive Toleranzbereich.
 
 ## Verwendung & Ausführung
-Dieses Projekt stellt nur den Quellcode des Programms bereit.
-Um das Programm auszuführen, muss der Code in eine geeignete Entwicklungsumgebung wie z. B. Visual Studio eingefügt und als C# Konsolenanwendung gestartet werden:
+Dieses Projekt stellt sowohl den Quellcode des Programms bereit als auch eine exe.
+Um das Programm auszuführen, muss der Code in eine geeignete Entwicklungsumgebung wie z. B. Visual Studio eingefügt und als C# Konsolenanwendung gestartet werden, oder Sie starten die exe:
 
 **Schritte:**
 
@@ -67,4 +67,4 @@ E-Mail: hw035191@fh-muenster.de
 
 ---
 
-© 2025 Hendrik Woltering. Alle Rechte vorbehalten.
+© 2025 Hendrik. Alle Rechte vorbehalten.

@@ -160,10 +160,12 @@ class Program
         input = input.Replace(',', '.');
         string[] splits = input.Split(".");
 
+        bool m_as_meters_not_as_mili_check = input.Count(c => c == 'm') == 1 && input.All(c => !char.IsLetter(c) || c == 'm');
         // Regulärer Ausdruck, um die Zahl und die Einheit zu extrahieren
         var regex = new Regex(@"^(-?\d+(?:\.\d+)?)\s*(m|k|M|G|µ|u|n|p)?\s*(dbm|db|W|m|s|Hz|V)?$", RegexOptions.IgnoreCase);
         var match = regex.Match(input);
 
+        
 
         if (!match.Success)
         {
@@ -196,6 +198,11 @@ class Program
             }
             string corrected_value = splits[0] + "," + zeros + value.ToString().Replace(splits[0], "");
             value = float.Parse(corrected_value);
+        }
+        if (m_as_meters_not_as_mili_check)
+        {
+            order = "";
+            unit = "m";
         }
         return (value, order, unit);
     }
